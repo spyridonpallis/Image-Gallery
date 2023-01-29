@@ -1,15 +1,14 @@
-import React, { Component } from "react";
-import Navbar from "./Navbar";
+import React from 'react';
+import Cards from './Cards';
+//import HeroSection from '../HeroSection';
+//import Footer from '../Footer';
 
-class Home extends React.Component {
-  render() {
-    return (
-      <div>
-        <div className="project-container">
-        <Navbar></Navbar>
-        </div>
-      </div>
-    );
-  }
+function Home() {
+  return (
+    <>
+      <Cards />
+    </>
+  );
 }
+
 export default Home;
